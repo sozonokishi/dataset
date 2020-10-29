@@ -1,0 +1,89 @@
+,Sector,Industry,Count
+0,Accounting & Legal,Accounting,39
+1,Accounting & Legal,Legal,4
+2,Aerospace & Defense,Aerospace & Defense,22
+3,"Arts, Entertainment & Recreation",Audiovisual,1
+4,"Arts, Entertainment & Recreation",Gambling,3
+5,"Arts, Entertainment & Recreation",Sports & Recreation,3
+6,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,33
+7,Business Services,Advertising & Marketing,50
+8,Business Services,Architectural & Engineering Services,13
+9,Business Services,Building & Personnel Services,2
+10,Business Services,Consulting,111
+11,Business Services,Membership Organizations,4
+12,Business Services,Research & Development,12
+13,Business Services,Security Services,2
+14,Business Services,Staffing & Outsourcing,321
+15,Business Services,Wholesale,6
+16,"Construction, Repair & Maintenance",Commercial Equipment Repair & Maintenance,6
+17,"Construction, Repair & Maintenance",Construction,8
+18,"Construction, Repair & Maintenance",General Repair & Maintenance,2
+19,Consumer Services,Consumer Product Rental,1
+20,Consumer Services,"Health, Beauty, & Fitness",13
+21,Education,Colleges & Universities,38
+22,Education,Education Training Services,3
+23,Education,K-12 Education,6
+24,Education,Preschool & Child Care,3
+25,Finance,Banks & Credit Unions,51
+26,Finance,Brokerage Services,6
+27,Finance,Financial Analytics & Research,2
+28,Finance,Financial Transaction Processing,10
+29,Finance,Investment Banking & Asset Management,78
+30,Finance,Lending,15
+31,Finance,Stock Exchanges,1
+32,Finance,Venture Capital & Private Equity,6
+33,Government,Federal Agencies,12
+34,Government,Municipal Governments,9
+35,Government,State & Regional Agencies,15
+36,Health Care,Health Care Services & Hospitals,151
+37,Information Technology,Computer Hardware & Software,111
+38,Information Technology,Enterprise Software & Network Solutions,69
+39,Information Technology,IT Services,324
+40,Information Technology,Internet,65
+41,Insurance,Insurance Agencies & Brokerages,4
+42,Insurance,Insurance Carriers,47
+43,Manufacturing,Chemical Manufacturing,1
+44,Manufacturing,Consumer Products Manufacturing,10
+45,Manufacturing,Electrical & Electronic Manufacturing,6
+46,Manufacturing,Food & Beverage Manufacturing,6
+47,Manufacturing,Health Care Products Manufacturing,5
+48,Manufacturing,Industrial Manufacturing,7
+49,Manufacturing,Miscellaneous Manufacturing,2
+50,Manufacturing,Transportation Equipment Manufacturing,3
+51,Media,Motion Picture Production & Distribution,6
+52,Media,News Outlet,1
+53,Media,Publishing,4
+54,Media,TV Broadcast & Cable Networks,10
+55,Media,Video Games,20
+56,Mining & Metals,Metals Brokers,1
+57,Non-Profit,Health Fundraising Organizations,3
+58,Non-Profit,Social Assistance,23
+59,"Oil, Gas, Energy & Utilities",Energy,7
+60,"Oil, Gas, Energy & Utilities",Oil & Gas Services,4
+61,"Oil, Gas, Energy & Utilities",Utilities,2
+62,Real Estate,Real Estate,11
+63,"Restaurants, Bars & Food Services",Casual Restaurants,5
+64,"Restaurants, Bars & Food Services",Catering & Food Service Contractors,1
+65,"Restaurants, Bars & Food Services",Convenience Stores & Truck Stops,2
+66,Retail,Automotive Parts & Accessories Stores,4
+67,Retail,Beauty & Personal Accessories Stores,2
+68,Retail,Consumer Electronics & Appliances Stores,1
+69,Retail,"Department, Clothing, & Shoe Stores",5
+70,Retail,Drug & Health Stores,2
+71,Retail,Food & Beverage Stores,2
+72,Retail,Gas Stations,3
+73,Retail,General Merchandise & Superstores,3
+74,Retail,Grocery Stores & Supermarkets,3
+75,Retail,Home Centers & Hardware Stores,5
+76,Retail,Other Retail Stores,3
+77,Retail,Pet & Pet Supplies Stores,1
+78,Retail,Sporting Goods Stores,1
+79,Retail,Vehicle Dealers,3
+80,Telecommunications,"Cable, Internet & Telephone Providers",5
+81,Telecommunications,Telecommunications Services,6
+82,Transportation & Logistics,Express Delivery Services,1
+83,Transportation & Logistics,Logistics & Supply Chain,13
+84,Transportation & Logistics,Transportation Management,4
+85,Transportation & Logistics,Truck Rental & Leasing,1
+86,Transportation & Logistics,Trucking,1
+87,Travel & Tourism,"Hotels, Motels, & Resorts",1
