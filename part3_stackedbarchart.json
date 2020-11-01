@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Top 5 Sector for Data Analayst Job Posting in Glassdoor",
+  "width": 400,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/sozonokishi/dataset/main/DataAnalystModified_TreeDonut.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [{"op": "sum", "field": "Count", "as": "indus_count"}],
+      "groupby": ["Sector", "Industry"]
+    },
+    {"filter": "datum.indus_count > 50"}
+  ],
+  "encoding": {
+    "y": {
+      "field": "indus_count",
+      "aggregate": "sum",
+      "axis": {"tickCount": 6},
+      "title": "Job Posting Count"
+    },
+    "x": {"field": "Sector", "sort": "y", "axis": {"labelAngle": 0}},
+    "color": {"field": "Industry", "sort": "ascending", "legend": null},
+    "tooltip": [
+      {"field": "Industry"},
+      {"field": "indus_count", "title": "Job Post Count"}
+    ]
+  },
+  "layer": [
+    {"mark": "bar"},
+    {
+      "transform": [
+        {
+          "aggregate": [
+            {"op": "sum", "field": "indus_count", "as": "sector_count"}
+          ],
+          "groupby": ["Sector"]
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "baseline": "bottom",
+        "fontSize": 13,
+        "font": "sans-serif"
+      },
+      "encoding": {
+        "text": {"field": "sector_count", "type": "quantitative"},
+        "y": {"field": "sector_count", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {
+    "group": {"fill": "#e5e5e5"},
+    "arc": {"fill": "#000"},
+    "area": {"fill": "#000"},
+    "line": {"stroke": "#000"},
+    "path": {"stroke": "#000"},
+    "rect": {"fill": "#000"},
+    "shape": {"stroke": "#000"},
+    "symbol": {"fill": "#000", "size": 40},
+    "title": {"fontSize": 25, "fontWeight": "normal", "font": "sans-serif"},
+    "axis": {
+      "domain": false,
+      "grid": true,
+      "gridColor": "#FFFFFF",
+      "gridOpacity": 1,
+      "labelColor": "#7F7F7F",
+      "labelPadding": 4,
+      "tickColor": "#7F7F7F",
+      "tickSize": 5.67,
+      "titleFontSize": 16,
+      "titleFontWeight": "normal"
+    },
+    "legend": {"labelBaseline": "middle", "labelFontSize": 15, "symbolSize": 40}
+  }
+}
